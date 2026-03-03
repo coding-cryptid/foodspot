@@ -107,13 +107,13 @@ header .navigation li a {
     object-fit: cover;
 }
 
-.about .row .col50 .titleText {
+.titleText {
     color: #111;
     font-size: 2rem;
     font-weight: 500;
 }
 
-.about .row .col50 .titleText span {
+.titleText span {
     color: #ff0157;
     font-weight: 700;
     font-size: 3rem;
