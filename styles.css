@@ -80,3 +80,35 @@ header .navigation li a {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+.about {
+    padding: 80px;
+}
+
+.about .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 3rem;
+}
+
+.about .row .col50 {
+    width: 50%;
+}
+
+.about .row .col50 .imgBx img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.about .row .col50 .titleText {
+    color: #111;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.about .row .col50 .titleText span {
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 3rem;
+}
