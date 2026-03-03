@@ -9,11 +9,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 100px;
+    padding: 20px 100px;
+    background-color: white;
 }
 
 .logo {
-    color: white;
+    color: #111;
     font-weight: bold;
     text-decoration: none;
     font-size: 2rem;
@@ -31,7 +32,45 @@ header .navigation {
 
 header .navigation li a {
     text-decoration: none;
-    color: white;
+    color: #111;
     font-weight: 400px;
     font-size: 1.5rem;
+}
+
+.banner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url(https://i.postimg.cc/s29LNR86/bg.jpg);
+    background-size: cover;
+}
+
+.banner .content {
+    max-width: 900px;
+    text-align: center;
+    color: white;
+}
+
+.banner .content h2 {
+    font-size: 5rem;
+}
+
+.banner .content p {
+    font-size: 1rem;
+}
+
+.banner .btn  {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    background-color: #ff0157;
+    padding: 10px 30px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
