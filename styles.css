@@ -79,6 +79,12 @@ header .navigation li a {
     margin-top: 40px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    border: 2px solid #ff0157;
+}
+
+.banner .btn:hover {
+    box-shadow: inset 2px 4px 8px #00000055;
+    border: 2px solid #ff0157;
 }
 
 .about {
