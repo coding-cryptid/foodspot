@@ -167,5 +167,50 @@ header .navigation li a {
 }
 
 .testimonials {
-    background: url(https://images.pexels.com/photos/8738013/pexels-photo-8738013.jpeg?_gl=1*1livp2o*_ga*OTEyMDA2NjMwLjE3NzIxMjg4MzA.*_ga_8JE65Q40S6*czE3NzI1OTE3MTAkbzQkZzEkdDE3NzI1OTE5ODgkajQyJGwwJGgw);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://images.pexels.com/photos/8738013/pexels-photo-8738013.jpeg?_gl=1*1livp2o*_ga*OTEyMDA2NjMwLjE3NzIxMjg4MzA.*_ga_8JE65Q40S6*czE3NzI1OTE3MTAkbzQkZzEkdDE3NzI1OTE5ODgkajQyJGwwJGgw);
+    background-size: cover;
+}
+
+.white {
+    color: white;
+}
+
+.testimonials .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.testimonials .content .box {
+    width: 250px;
+    background-color: white;
+    padding: 40px;
+    color: #111;
+}
+
+.testimonials .content .box .imgBx img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.text h2 {
+    color: #ff0157;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.text p {
+    color: #111;
+    font-style: italic;
+}
+
+.testimonials .content .box .imgBx {
+    width: 100%;
+    height: 300px;
 }
