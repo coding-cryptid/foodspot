@@ -164,13 +164,14 @@ header .navigation li a {
 }
 
 .experts {
-    padding: 80px;
+    padding: 15px;
 }
 
 .testimonials {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    background: linear-gradient(rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.537)),
     url(https://images.pexels.com/photos/8738013/pexels-photo-8738013.jpeg?_gl=1*1livp2o*_ga*OTEyMDA2NjMwLjE3NzIxMjg4MzA.*_ga_8JE65Q40S6*czE3NzI1OTE3MTAkbzQkZzEkdDE3NzI1OTE5ODgkajQyJGwwJGgw);
     background-size: cover;
+    padding: 60px 40px 80px 40px;
 }
 
 .white {
@@ -218,6 +219,79 @@ header .navigation li a {
     height: 300px;
 }
 
+.contactform {
+    padding: 75px 50px;
+    box-shadow: rgba(1, 0, 18, 0.429) 0px 0px 28px;
+    background: white;
+    max-width: 400px;
+    margin: 50px;
+}
+
+.contactform h3 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contactform .inputbox {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea {
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    resize: vertical;
+}
+
+.contactform .inputbox input[type="submit"] {
+    font-size: 1rem;
+    color: white;
+    background-color: #ff0157;
+    display: inline-block;
+    max-width: 100px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.contactus {
+    background: url(https://i.postimg.cc/4NmrNq7y/bg3.jpg);
+    background-size: cover;
+    background-position: 0;
+    padding: 60px 40px 80px 40px;
+}
+
+footer {
+    background-color: #ff0157;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70px;
+    padding: 7px;
+}
+
+footer p {
+    font-weight: 700px;
+    margin: 10px 0 5px 0;
+}
+
+.icons {
+    padding: 10px;
+}
 
 @media screen and (max-width: 1020px) {
     header {
