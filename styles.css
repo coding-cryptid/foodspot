@@ -219,7 +219,6 @@ header .navigation li a {
 }
 
 
-
 @media screen and (max-width: 1020px) {
     header {
         flex-direction: column;
