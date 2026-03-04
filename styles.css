@@ -165,3 +165,7 @@ header .navigation li a {
 .experts {
     padding: 80px;
 }
+
+.testimonials {
+    background: url(https://images.pexels.com/photos/8738013/pexels-photo-8738013.jpeg?_gl=1*1livp2o*_ga*OTEyMDA2NjMwLjE3NzIxMjg4MzA.*_ga_8JE65Q40S6*czE3NzI1OTE3MTAkbzQkZzEkdDE3NzI1OTE5ODgkajQyJGwwJGgw);
+}
